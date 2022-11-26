@@ -49,3 +49,18 @@
     background-color: #252626;
     color: black;
   }
+/*Footer for alle sidene*/
+  footer{
+    position: relative;
+}
+/*designe for selve footeren*/
+.column{
+    float: left;
+    width: 25%;
+    color: black;
+    margin-top: 10%;
+    line-height: 20px;
+    text-align: center;
+    font-family: sans-serif, "Montserrat";
+    letter-spacing: -1px;
+}
