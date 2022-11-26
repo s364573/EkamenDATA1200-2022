@@ -1,10 +1,12 @@
 /*body for indexen spesifikt*/
 .bodyIntro{
     background-color: white;
+    margin: 0;
 }
 /*body for resten av sidene*/
 .body{
     background-color: white;
+    margin: 0;
 }
 /*Navbar for alle sidene*/
 .navbar {
@@ -12,7 +14,9 @@
     background-color: #252626;
     position: sticky;
     width: 100%;
-    top: 0;
+    top: 0px;
+    height: 50px;
+
   }
  
   .navbar a {
