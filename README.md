@@ -1,0 +1,2 @@
+# EkamenDATA1200-2022
+Eksamen DATA1200-2022
