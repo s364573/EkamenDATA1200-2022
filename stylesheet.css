@@ -54,22 +54,31 @@ footer{
     bottom: 0;
 }
 /*designe for selve footeren*/
+/* mulig for telefon del
+.row{
+    margin-left: 5%;
+    margin-right: 5%;
+    width: auto;
+    align-content: center;
+}*/
 .column{
     float: left;
-    width: 23%;
+    width: 33%;
     color: black;
     margin-bottom: 20%;
     line-height: 20px;
-    text-align: left;
+    text-align: center;
     font-family: sans-serif, "Montserrat";
     letter-spacing: -1px;
-    margin-left: 10%;
 }
 .column a{
     color: black;
     text-decoration: none;
     border-style: hidden hidden dotted hidden;
     border-color: wheat;
+}
+.column p{
+    text-align: center;
 }
 .column a:hover{
     color: black;
