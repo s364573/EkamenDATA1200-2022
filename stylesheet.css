@@ -56,14 +56,14 @@ footer{
 /*designe for selve footeren*/
 .column{
     float: left;
-    width: 24%;
+    width: 23%;
     color: black;
     margin-bottom: 20%;
     line-height: 20px;
     text-align: left;
     font-family: sans-serif, "Montserrat";
     letter-spacing: -1px;
-    margin-left: 1%;
+    margin-left: 10%;
 }
 .column a{
     color: black;
