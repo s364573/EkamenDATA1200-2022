@@ -1,24 +1,28 @@
 /*body for indexen spesifikt*/
 .bodyIntro{
-    background-color: white;
+    background-color: burlywood;
     margin: 0;
+    text-align: center;
+    font-family: sans-serif;
 }
 /*body for resten av sidene*/
 .body{
     background-color: white;
     margin: 0;
+    background-color: burlywood;
+    font-family: sans-serif;
 }
 /*Navbar for alle sidene*/
 .navbar {
     overflow: hidden;
-    background-color: #252626;
+    background-image: linear-gradient(to bottom right, #7B3F00 30%, burlywood );
     position: sticky;
     width: 100%;
     top: 0px;
     height: 50px;
 
   }
- 
+  /*spesefikt design på teksten*/
   .navbar a {
     float: left;
     display: block;
@@ -26,44 +30,52 @@
     text-align: center;
     padding-left: 10px;
     text-decoration: none;
+    text-shadow: 1px 1px black;
+    padding-left: 20px;
   }
- 
+ /*spesefikt design på posisjon*/
   .navbartxt{
    float: left;
     display: block;
-    color: white;
     text-align: center;
     text-decoration: none;
     padding-top: 13px;
   }
- 
-  .navbartxt a{
-   padding-left: 20px;
-  }
- 
-  .navbar a.right {
-    float: none;
-  }
- 
   .navbar a:hover {
-    background-color: #252626;
     color: black;
+    text-shadow: none;
   }
 /*Footer for alle sidene*/
-  footer{
-    position: relative;
+footer{
+    position: fixed;
+    background-color: #be8f5bb6;
+    width: 100%;
+    height: 150px;
+    bottom: 0;
 }
 /*designe for selve footeren*/
 .column{
     float: left;
     width: 24%;
     color: black;
-    margin-top: 10%;
+    margin-bottom: 20%;
     line-height: 20px;
     text-align: left;
     font-family: sans-serif, "Montserrat";
     letter-spacing: -1px;
     margin-left: 1%;
+}
+.column a{
+    color: black;
+    text-decoration: none;
+    border-style: hidden hidden dotted hidden;
+    border-color: wheat;
+}
+.column a:hover{
+    color: black;
+    text-decoration: none;
+    border-style: hidden hidden dotted hidden;
+    border-color: black;
 }
 /*fotter tittel(T) og text(U) design for alle sidene*/
 .footerT{
@@ -75,19 +87,20 @@
     line-height: 25px;
 
 }
-.column a{
-    color: black;
-    text-decoration: none;
-    border-style: hidden hidden dotted hidden;
-    border-color: silver;
-}
-.column a:hover{
-    color: black;
-    text-decoration: none;
-    border-style: hidden hidden dotted hidden;
-    border-color: black;
-}
-/*Mulig text design for logo?
 #logo{
-    font-family: 'Brush Script MT', cursive;
-}*/
+    font-family: 'Frest Style', sans-serif;
+    font-size: 14px;
+
+}
+h1{
+    text-align: center;
+    font-size: 60px;
+    color: #30110D;
+}
+/*Txt design intro side*/
+#introtxt{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 10%;
+    color: #30110D;
+}
