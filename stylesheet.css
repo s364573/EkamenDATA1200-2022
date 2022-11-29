@@ -19,7 +19,7 @@
     position: sticky;
     width: 100%;
     top: 0px;
-    height: 50px;
+    height: auto;
 
   }
   /*spesefikt design på teksten*/
@@ -28,21 +28,41 @@
     display: block;
     color: white;
     text-align: center;
-    padding-left: 10px;
+    padding: 10px;
     text-decoration: none;
     text-shadow: 1px 1px black;
-    padding-left: 20px;
   }
- /*spesefikt design på posisjon*/
+ /*spesefikt design på posisjon
   .navbartxt{
    float: left;
     display: block;
     text-align: center;
     text-decoration: none;
-    padding-top: 13px;
-  }
+  } vi er usikre på om den her en funksjon, annen kode gjorde dette unødvendig intil videre*/
   .navbar a:hover {
     color: black;
+    text-shadow: none;
+  }
+  /*Navbar for menysiden bare for side 3*/
+  .MenyNav {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    width: 100%;
+    top: 0px;
+    height: 50px;
+    justify-content: center;
+  }
+  /*spesefikt design på teksten*/
+  .MenyNav a {
+    color: #30110D;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    line-height: 50px;
+  }
+  .MenyNav a:hover {
+    color: white;
     text-shadow: none;
   }
 /*Footer for alle sidene*/
@@ -52,14 +72,6 @@ footer{
     width: 100%;
     height: 150px;
 }
-/*designe for selve footeren*/
-/* mulig for telefon del
-.row{
-    margin-left: 5%;
-    margin-right: 5%;
-    width: auto;
-    align-content: center;
-}*/
 .column{
     float: left;
     width: 33%;
@@ -95,6 +107,7 @@ footer{
     line-height: 25px;
 
 }
+/*logo for nettsiden*/
 #logo{
     font-family: 'Frest Style', sans-serif;
     font-size: 14px;
@@ -107,6 +120,14 @@ h1{
 }
 h2{
     text-align: center;
+    text-decoration: underline;
+}
+h3{
+    text-align: center;
+    
+}
+h4{
+    text-align: center;
 }
 /*Txt design intro side*/
 #introtxt{
@@ -115,9 +136,62 @@ h2{
     margin-bottom: 10%;
     color: #30110D;
 }
+/*strekene mellom de forskjellige tingene i menyen*/
 hr{
     width: 50%;
-    background-color: black;
+    background-color: #7B3F00;
     border: none;
     height: 1px;
 }
+/*flexbox for matrettene på menyen på side 3 inspirert ifra W3school*/
+.menyBox {
+    display: flex;
+    flex-wrap: wrap;
+    position: static;
+    justify-content: center;
+    height: auto;
+}
+  
+.menyBox > div {
+    color: #30110D;
+    margin: 2%;
+    width: 46%;
+    min-width: 480px;
+    text-align: left;
+    line-height: 75px;
+    font-size: 30px;
+}
+/*Opp og Ned knapp for menysiden istedenfor sticky menybar*/
+#menyK {
+    display: flex;
+    position: fixed;
+    height: auto;
+    flex-direction: column;
+    /*margin-left: 94%;
+    margin-right: 1%;*/
+    right: 1%;
+    top: 20%;
+}
+  
+#menyK > div {
+    color: #30110D;
+    border: solid;
+    border-radius: 5px;
+    margin: 1px;
+    width: auto;
+    text-align: center;
+    line-height: 30px;
+    font-size: 30px;
+    padding: 5px;
+    rotate: -90deg;
+}
+#menyK a{
+    text-decoration: none;
+    color: #30110D;
+}
+/*anker for menybaren og menyknappen*/
+.anker {
+    padding-top: 60px;
+    left: 0px;
+}
+
