@@ -1,0 +1,223 @@
+<<<<<<< Updated upstream
+=======
+/*body for indexen spesifikt*/
+.bodyIntro{
+    background-color: burlywood;
+    margin: 0;
+    text-align: center;
+    font-family: sans-serif;
+}
+/*body for resten av sidene*/
+.body{
+    margin: 0;
+    background-color: burlywood;
+    font-family: sans-serif;
+    height: auto;
+}
+/*Navbar for alle sidene*/
+.navbar {
+    overflow: hidden;
+    background-image: linear-gradient(to bottom right, #7B3F00 30%, burlywood );
+    position: sticky;
+    width: 100%;
+    top: 0px;
+    height: auto;
+
+  }
+  /*spesefikt design på teksten*/
+  .navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    text-shadow: 1px 1px black;
+  }
+ /*spesefikt design på posisjon
+  .navbartxt{
+   float: left;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+  } vi er usikre på om den her en funksjon, annen kode gjorde dette unødvendig intil videre*/
+  .navbar a:hover {
+    color: black;
+    text-shadow: none;
+  }
+  /*Navbar for menysiden bare for side 3*/
+  .MenyNav {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    width: 100%;
+    top: 0px;
+    height: 50px;
+    justify-content: center;
+  }
+  /*spesefikt design på teksten*/
+  .MenyNav a {
+    color: #30110D;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    line-height: 50px;
+  }
+  .MenyNav a:hover {
+    color: white;
+    text-shadow: none;
+  }
+/*Footer for alle sidene*/
+footer{
+    position: absolute;
+    background-color: #be905bc7;
+    width: 100%;
+    height: 150px;
+}
+.column{
+    float: left;
+    width: 33%;
+    color: black;
+    margin-bottom: 20%;
+    line-height: 20px;
+    text-align: center;
+    font-family: sans-serif, "Montserrat";
+    letter-spacing: -1px;
+}
+.column a{
+    color: black;
+    text-decoration: none;
+    border-style: hidden hidden dotted hidden;
+    border-color: wheat;
+}
+.column p{
+    text-align: center;
+}
+.column a:hover{
+    color: black;
+    text-decoration: none;
+    border-style: hidden hidden dotted hidden;
+    border-color: black;
+}
+/*fotter tittel(T) og text(U) design for alle sidene*/
+.footerT{
+    font-size: 15px;
+    font-weight: bold;
+}
+.footerU{
+    text-align: left;
+    line-height: 25px;
+
+}
+/*logo for nettsiden*/
+#logo{
+    font-family: 'Frest Style', sans-serif;
+    font-size: 14px;
+
+}
+h1{
+    text-align: center;
+    font-size: 60px;
+    color: #30110D;
+}
+h2{
+    text-align: center;
+    text-decoration: underline;
+    padding-top: 25px;
+}
+h3{
+    text-align: center;
+    
+}
+h4{
+    text-align: center;
+}
+/*Txt design intro side*/
+#introtxt{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 10%;
+    color: #30110D;
+}
+/*strekene mellom de forskjellige tingene i menyen*/
+hr{
+    width: 50%;
+    background-color: #7B3F00;
+    border: none;
+    height: 1px;
+}
+/*menybox for matrettene på menyen på side 3 inspirert ifra W3school*/
+.menyBox {
+    display: flex;
+    flex-wrap: wrap;
+    position: static;
+    justify-content: center;
+    height: auto;
+    background-color: 0;
+}
+  
+.menyBox > div {
+    color: #30110D;
+    margin: 5%;
+    width: 40%;
+    min-width: 300px;
+    text-align: left;
+    font-size: 20px;
+}
+/*Designer oppsett for matretter på menysiden*/
+.kroner{
+    float: right;
+    font-weight: bold;
+}
+ .rett{
+    font-weight: bold;
+}
+
+.ingred{
+    display: block;
+    font-size: 15px;
+    line-height: 20px;
+    margin-top: 10px;
+    padding-bottom: 20px;
+}
+
+/*Opp og Ned knapp for menysiden istedenfor sticky menybar*/
+#menyK {
+    display: flex;
+    position: fixed;
+    height: auto;
+    flex-direction: column;
+    /*margin-left: 94%;
+    margin-right: 1%;*/
+    right: 1%;
+    top: 20%;
+}
+  
+#menyK > div {
+    color: #30110D;
+    border: solid;
+    border-radius: 5px;
+    margin: 1px;
+    width: auto;
+    text-align: center;
+    line-height: 30px;
+    font-size: 30px;
+    padding: 5px;
+    rotate: -90deg;
+}
+#menyK a{
+    text-decoration: none;
+    color: #30110D;
+}
+/*anker for menybaren og menyknappen*/
+.anker {
+    padding-top: 60px;
+    left: 0px;
+}
+
+@media screen (min-width: 400px;) {
+    .menyBox{
+        
+    }
+}
+>>>>>>> Stashed changes
