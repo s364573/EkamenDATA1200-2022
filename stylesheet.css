@@ -15,12 +15,12 @@
 /*Navbar for alle sidene*/
 .navbar {
     overflow: hidden;
-    background-image: linear-gradient(to bottom right, #7B3F00 30%, burlywood );
+    background-image: linear-gradient(to bottom right, #7B3F00 30%, rgb(222, 184, 135) );
     position: sticky;
     width: 100%;
     top: 0px;
     height: auto;
-
+    
   }
   /*spesefikt design på teksten*/
   .navbar a {
@@ -70,7 +70,7 @@ footer{
     position: absolute;
     background-color: #be905bc7;
     width: 100%;
-    height: 150px;
+
 }
 .column{
     float: left;
@@ -130,6 +130,11 @@ h3{
 h4{
     text-align: center;
 }
+h5{
+    text-align: center;
+    font-size: 60px;
+    color: #30110D;
+}
 /*Txt design intro side*/
 #introtxt{
     margin-left: 20%;
@@ -157,7 +162,7 @@ hr{
     color: #30110D;
     margin: 5%;
     width: 40%;
-    min-width: 480px;
+    min-width: 300px;
     text-align: left;
     font-size: 20px;
 }
