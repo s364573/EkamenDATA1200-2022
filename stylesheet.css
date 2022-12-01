@@ -231,6 +231,7 @@ hr{
 
 .row{
     display: flex;
+    flex-wrap: wrap;
 }
 
 .s5side{
@@ -247,14 +248,14 @@ hr{
     margin: 0;
 }
 
-.s5txt{
-    flex: 40%;
-    width: 40%;
+.s5main{
+    flex: 35%;
+    width: 35%;
     margin: 5%;
 }
 
-.s5txt p{
-
+.s5main p{
+    width: 35%;
 }
 
 /*.tips{
@@ -277,3 +278,35 @@ hr{
 .tips:hover{
     visibility: visible;
 }*/
+.bilde{
+    height: auto;
+    width: 44%;
+    min-width: 400px;
+}
+.oppgbox{
+    display: flex;
+    flex-wrap: wrap;
+}
+.oppgbox p{
+    flex: 47%;
+    padding: 1%;
+    margin: 1%;
+}
+.oppgbox img{
+    flex: 49%;
+}
+#bTxt{
+    font-size: 10px;
+    position: relative;
+    text-align: right;
+    margin: 0;
+    padding: 0;
+    width: auto;
+}
+#bTxt2{
+    font-size: 10px;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    width: auto;
+}
