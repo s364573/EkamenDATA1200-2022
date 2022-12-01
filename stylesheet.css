@@ -312,6 +312,6 @@ hr{
 }
 @media screen and (min-width: 450px){
     .s5side{
-        flex: 0%;
+        min-width: 0%;
     }
 }
