@@ -281,7 +281,7 @@ hr{
 .bilde{
     height: auto;
     width: 44%;
-    min-width: 300px;
+    min-width: 400px;
 }
 .oppgbox{
     display: flex;
