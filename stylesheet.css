@@ -314,7 +314,11 @@ hr{
     .s5side{
         max-width: 0%;
     }
+    .bilde{
+        min-width: 300px;
+    }
     h3{
         font-size:50px;
     }
+
 }
