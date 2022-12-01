@@ -125,7 +125,7 @@ h2{
 }
 h3{
     text-align: left;
-    font-size: 70px;
+    font-size: 60px;
     margin: 0;
     width: 40%;
     padding: 15px;
@@ -315,6 +315,6 @@ hr{
         max-width: 0%;
     }
     h3{
-        font-size: 50px;
+        font-size:50px;
     }
 }
