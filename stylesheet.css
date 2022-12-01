@@ -281,7 +281,7 @@ hr{
 .bilde{
     height: auto;
     width: 44%;
-    min-width: 400px;
+    min-width: 300px;
 }
 .oppgbox{
     display: flex;
@@ -310,8 +310,8 @@ hr{
     padding: 0;
     width: auto;
 }
-@media screen and (min-width: 450px){
+@media screen and (max-width: 450px){
     .s5side{
-        min-width: 0%;
+        max-width: 0%;
     }
 }
