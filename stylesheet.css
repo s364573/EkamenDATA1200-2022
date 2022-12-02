@@ -125,7 +125,7 @@ h2{
 }
 h3{
     text-align: left;
-    font-size: 60px;
+    font-size: 70px;
     margin: 0;
     width: 40%;
     padding: 15px;
@@ -133,11 +133,19 @@ h3{
 }
 h4{
     text-align: center;
+    font-size: 25px;
 }
 h5{
     text-align: center;
     font-size: 60px;
     color: #30110D;
+}
+h6{
+    text-align: center;
+    font-size: 50px;
+    position: static;
+    top: 10%;
+    margin: 2%;
 }
 /*Txt design intro side*/
 #introtxt{
@@ -145,6 +153,7 @@ h5{
     margin-right: 20%;
     margin-bottom: 10%;
     color: #30110D;
+    line-height: 25px;
 }
 /*strekene mellom de forskjellige tingene i menyen*/
 hr{
@@ -291,13 +300,14 @@ hr{
     flex: 47%;
     padding: 1%;
     margin: 1%;
+    line-height: 25px;
 }
 .oppgbox img{
     flex: 49%;
 }
 #bTxt{
     font-size: 10px;
-    position: relative;
+    position: static;
     text-align: right;
     margin: 0;
     padding: 0;
@@ -305,11 +315,27 @@ hr{
 }
 #bTxt2{
     font-size: 10px;
-    position: relative;
+    position: static;
     margin: 0;
     padding: 0;
     width: auto;
 }
+#Kontakt{
+    text-align: left;
+    line-height: 25px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+#Kontakt a{
+    color: black;
+}
+#BookingB{
+    width: 60%;
+    height: auto;
+    border-radius: 15px;
+    margin-left: 20%;
+}
+
 @media screen and (max-width: 450px){
     .s5side{
         max-width: 0%;
