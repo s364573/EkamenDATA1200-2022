@@ -306,7 +306,7 @@ hr{
     flex: 49%;
 }
 #bTxt{
-    font-size: 10px;
+    font-size: 12px;
     position: static;
     text-align: right;
     margin: 0;
@@ -314,7 +314,7 @@ hr{
     width: auto;
 }
 #bTxt2{
-    font-size: 10px;
+    font-size: 12px;
     position: static;
     margin: 0;
     padding: 0;
