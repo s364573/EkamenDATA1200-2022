@@ -280,44 +280,51 @@ hr{
     width: 35%;
 }
 
-/*.tips{
-    display: inline-block;
-    position: relative;
-    width: 25%;
-}
-
-.tips.tiptxt {
-    visibility: hidden;
-    text-align: center;
-    background-color: gray;
-    padding: 5px;
-    border-radius: 8px;
-    width: 50%;
-    margin-left: 25%;
-
-}
-
-.tips:hover{
-    visibility: visible;
-}*/
 .bilde{
     height: auto;
     width: 44%;
     min-width: 400px;
 }
+
 .oppgbox{
     display: flex;
     flex-wrap: wrap;
 }
+
 .oppgbox p{
     flex: 47%;
     padding: 1%;
     margin: 1%;
     line-height: 25px;
 }
+/*Metode for å legge inn tooltips på side 5*/
+.t_tip{
+    position: relative;
+    display: inline-block;
+}
+
+.t_tip .t_tiptext{
+    visibility: hidden;
+    background-color: rgb(59, 58, 58);
+    color: white;
+    text-align: center;
+    width: 150px;
+    margin-left: -75px;
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    line-height: 25px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.t_tip:hover .t_tiptext{
+    visibility: visible;
+}
 .oppgbox img{
     flex: 49%;
 }
+
 #bTxt{
     font-size: 12px;
     position: static;
