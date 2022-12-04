@@ -1,9 +1,28 @@
 /*body for indexen spesifikt*/
 .bodyIntro{
     background-color: burlywood;
+    /*Bilde hentet fra Unsplash, fotograf: Patrick Tomasso*/
+    background-image: url(bilder/bakgrunn.jpg);
+    background-size: cover;
     margin: 0;
     text-align: center;
     font-family: sans-serif;
+}
+#FramsideTxt{
+    background-color: rgba(222, 184, 135, 0.859);
+    margin-top: 0;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-radius: 10px;
+}
+/*Txt design intro side*/
+#introtxt{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 30%;
+    padding-bottom: 10%;
+    color: #30110D;
+    line-height: 25px;
 }
 /*body for resten av sidene*/
 .body{
@@ -21,9 +40,9 @@
     top: 0px;
     height: auto;
     
-  }
+}
   /*spesefikt design på teksten*/
-  .navbar a {
+.navbar a {
     float: left;
     display: block;
     color: white;
@@ -31,20 +50,13 @@
     padding: 10px;
     text-decoration: none;
     text-shadow: 1px 1px black;
-  }
- /*spesefikt design på posisjon
-  .navbartxt{
-   float: left;
-    display: block;
-    text-align: center;
-    text-decoration: none;
-  } vi er usikre på om den her en funksjon, annen kode gjorde dette unødvendig intil videre*/
-  .navbar a:hover {
+}
+.navbar a:hover {
     color: black;
     text-shadow: none;
-  }
+}
   /*Navbar for menysiden bare for side 3*/
-  .MenyNav {
+.MenyNav {
     display: flex;
     flex-wrap: wrap;
     position: relative;
@@ -52,23 +64,22 @@
     top: 0px;
     height: 50px;
     justify-content: center;
-  }
+}
   /*spesefikt design på teksten*/
-  .MenyNav a {
+.MenyNav a {
     color: #30110D;
     text-align: center;
     padding: 10px;
-    text-decoration: none;
+    text-decoration: none none solid none;
     line-height: 50px;
-  }
-  .MenyNav a:hover {
+}
+.MenyNav a:hover {
     color: white;
-    text-shadow: none;
-  }
+}
 /*Footer for alle sidene*/
 footer{
     position: absolute;
-    background-color: #be905bc7;
+    background-color: #be905b;
     width: 100%;
 
 }
@@ -94,7 +105,6 @@ footer{
 .column a:hover{
     color: black;
     text-decoration: none;
-    border-style: hidden hidden dotted hidden;
     border-color: black;
 }
 /*fotter tittel(T) og text(U) design for alle sidene*/
@@ -108,7 +118,7 @@ footer{
 
 }
 /*logo for nettsiden*/
-#logo{
+.logo{
     font-family: 'Frest Style', sans-serif;
     font-size: 14px;
 
@@ -120,26 +130,34 @@ h1{
 }
 h2{
     text-align: center;
-    text-decoration: underline;
     padding-top: 25px;
+    padding-bottom: 25px;
+    color: #30110D;
 }
 h3{
-    text-align: center;
-    
+    text-align: left;
+    font-size: 70px;
+    margin: 0;
+    width: 40%;
+    padding: 15px;
+    color: #30110D;
 }
 h4{
     text-align: center;
+    font-size: 25px;
+    color: #30110D;
 }
 h5{
     text-align: center;
     font-size: 60px;
     color: #30110D;
 }
-/*Txt design intro side*/
-#introtxt{
-    margin-left: 20%;
-    margin-right: 20%;
-    margin-bottom: 10%;
+h6{
+    text-align: center;
+    font-size: 45px;
+    position: static;
+    top: 10%;
+    margin: 2%;
     color: #30110D;
 }
 /*strekene mellom de forskjellige tingene i menyen*/
@@ -148,6 +166,7 @@ hr{
     background-color: #7B3F00;
     border: none;
     height: 1px;
+    margin-top: 5%;
 }
 /*menybox for matrettene på menyen på side 3 inspirert ifra W3school*/
 .menyBox {
@@ -161,6 +180,8 @@ hr{
 .menyBox > div {
     color: #30110D;
     margin: 5%;
+    margin-top: 0;
+    margin-bottom: 0;
     width: 40%;
     min-width: 300px;
     text-align: left;
@@ -174,7 +195,6 @@ hr{
  .rett{
     font-weight: bold;
 }
-
 .ingred{
     display: block;
     font-size: 15px;
@@ -182,7 +202,11 @@ hr{
     margin-top: 10px;
     padding-bottom: 20px;
 }
-
+.Allergener{
+    text-align: center;
+    line-height: 20px;
+    font-size: 17px;
+}
 /*Opp og Ned knapp for menysiden istedenfor sticky menybar*/
 #menyK {
     display: flex;
@@ -194,7 +218,6 @@ hr{
     right: 1%;
     top: 20%;
 }
-  
 #menyK > div {
     color: #30110D;
     border: solid;
@@ -211,9 +234,154 @@ hr{
     text-decoration: none;
     color: #30110D;
 }
+
 /*anker for menybaren og menyknappen*/
 .anker {
     padding-top: 60px;
     left: 0px;
 }
 
+/*Side 5 oppsett, side, header, tekstboks*/
+.s5header{
+    width: 100%;
+    height: auto;
+    background-color: burlywood;
+    position: static;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.s5side{
+    flex: auto;
+    max-width: 10%;
+    left: 0;
+    margin: 0;
+    min-height: 100%;
+    background-color: burlywood;
+    text-align: center;
+}
+.s5side p{
+    margin: 0;
+}
+.s5main{
+    flex: 35%;
+    width: 35%;
+    margin: 5%;
+}
+.s5main p{
+    width: 35%;
+}
+.bilde{
+    height: auto;
+    width: 44%;
+    min-width: 400px;
+}
+.oppgbox{
+    display: flex;
+    flex-wrap: wrap;
+}
+.oppgbox p{
+    flex: 47%;
+    padding: 1%;
+    margin: 1%;
+    line-height: 25px;
+}
+.oppgbox img{
+    flex: 49%;
+}
+/*Metode for å legge inn tooltips på side 5, inspirert fra W3school https://www.w3schools.com/css/css_tooltip.asp */
+.t_tip{
+    position: relative;
+    display: inline-block;
+}
+.t_tip .t_tiptext{
+    visibility: hidden;
+    background-color: rgb(59, 58, 58);
+    color: white;
+    text-align: center;
+    width: 150px;
+    margin-left: -75px;
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    line-height: 25px;
+    border-radius: 5px;
+    padding: 5px;
+}
+.t_tip:hover .t_tiptext{
+    visibility: visible;
+}
+/*bildetekst*/
+#bTxt{
+    font-size: 12px;
+    position: static;
+    text-align: right;
+    margin: 0;
+    padding: 0;
+    width: auto;
+}
+#bTxt2{
+    font-size: 12px;
+    position: static;
+    margin: 0;
+    padding: 0;
+    width: auto;
+}
+
+/*Design og plassering på side 4*/
+#Kontakt{
+    text-align: left;
+    line-height: 25px;
+    margin: 20%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#Kontakt a{
+    color: black;
+}
+#BookingB{
+    width: 60%;
+    height: auto;
+    border-radius: 15px;
+    margin-left: 20%;
+}
+/*style for side 4 */
+.side4{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 10%;
+}
+#WaveBilde{
+flex: 30%;
+}
+#Side4Txt{
+flex: 50%;
+line-height: 25px;
+}
+/*formaterings endringer for mobil skjerm*/
+@media screen and (max-width: 450px){
+    .s5side{
+        max-width: 0%;
+    }
+    .bilde{
+        min-width: 300px;
+    }
+    h3{
+        font-size:50px;
+    }
+    h1{
+        font-size: 25px;
+    }
+    #FramsideTxt{
+        margin-left: 15%;
+        margin-right: 15%;
+        margin-top: 20%;
+    }
+    #introtxt{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+}
